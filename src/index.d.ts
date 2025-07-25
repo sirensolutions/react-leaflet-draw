@@ -1,5 +1,6 @@
 import * as React from 'react';
-import type { DrawOptions, EditOptions, ControlPosition } from 'leaflet';
+import type { DrawOptions, ControlPosition } from 'leaflet';
+import type { EditOptions } from 'leaflet-draw';
 
 
 interface EditControlProps {
@@ -26,7 +27,7 @@ interface EditControlProps {
     marker?: DrawOptions.MarkerOptions | boolean;
     circlemarker?: DrawOptions.CircleOptions | boolean;
   },
-
+  edit?: EditOptions;
 
   position: ControlPosition,
 }
