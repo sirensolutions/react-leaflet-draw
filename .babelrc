@@ -6,6 +6,7 @@
     ["@babel/env", { "modules": false }],
     "@babel/react"
   ],
+
   "env": {
     "cjs": {
       "plugins": [
