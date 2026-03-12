@@ -51,7 +51,8 @@ module.exports = {
     ]
   },
   plugins: [
-    new LodashModuleReplacementPlugin()
+   <><><><
+><><
   ],
   optimization: {
     minimize: true,
